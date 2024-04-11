@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Prueba 6 Css.css">
+    <link rel="icon" type="image/jpg" href="https://ih0.redbubble.net/image.5018003760.4579/raf,360x360,075,t,fafafa:ca443f4786.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <ul>
+               <li><a href="Inicio.html">Inicio</a></li>
+               <li><a href="Historia.html">Historia</a></li>
+               <li><a href="Personajes.html">Personajes</a>
+               <li><a href="Enemigos.html">Enemigos</a></li>
+               <li><a href="Artefactos.html">Artefactos</a></li>
+               <li><a href="Formulario.html">Formulario</a></li>
+           </ul>
+        </nav>
+     </header>
+     <div class="info-box">
+        <h2>Dejanos conocerte.</h2>
+          <div id="flex-p">  
+            <p class="big"><i class="fas fa-star"></i><br>Mediante este formulario pretendemos saber más acerca de ti.</p>
+            <p class="big"><i class="fas fa-thumbs-up"></i><br>Tu información nos ayudará a conocer tus preferencias.</p>
+          <p class="big"><i class="fas fa-check"></i><br>Con ella podremos hacer recomendaciones sobre como y con quién jugar según tus gustos.</p>
+          </div>
+      </div>
+     <div class="parallax">
+     </div>
+    <h2>Formulario de Envío.</h2>
+
+    <form action="https://172.22.200.240/resultados.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <label for="opciones">Vía preferida</label><br>
+        <select id="opciones" name="opcion">
+        <option value="Cacería">Cacería</option>
+        <option value="Destrucción">Destrucción</option>
+        <option value="Nihilidad">Nihilidad</option>
+        <option value="Abundancia">Abundancia</option>
+        <option value="Exultación">Exultación</option>
+        <option value="Conservación">Conservación</option>
+        <option value="Armonía">Armonía</option>
+    </select><br><br>
+
+    <label for="personaje_favorito">Personaje Favorito:</label><br>
+    <select id="personaje_favorito" name="personaje_favorito">
+        <option value="Trailblazer">Trailblazer</option>
+        <option value="Bailu">Bailu</option>
+        <option value="Gallagher">Gallagher</option>
+        <option value="Huohuo">Huohuo</option>
+        <option value="Luocha">Luocha</option>
+        <option value="Lynx">Lynx</option>
+        <option value="Natasha">Natasha</option>
+        <option value="Arlan">Arlan</option>
+        <option value="Blade">Blade</option>
+        <option value="Clara">Clara</option>
+        <option value="Imbitor Lunae">Imbitor Lunae</option>
+        <option value="Jingliu">Jingliu</option>
+        <option value="Misha">Misha</option>
+        <option value="Xueyi">Xueyi</option>
+        <option value="Argenti">Argenti</option>
+        <option value="Herta">Herta</option>
+        <option value="Himeko">Himeko</option>
+        <option value="Jing Yuan">Jing Yuan</option>
+        <option value="Qingque">Qingque</option>
+        <option value="Serval">Serval</option>
+        <option value="Asta">Asta</option>
+        <option value="Bronya">Bronya</option>
+        <option value="Hanya">Hanya</option>
+        <option value="Ruan Mei">Ruan Mei</option>
+        <option value="Sparkle">Sparkle</option>
+        <option value="Tingyun">Tingyun</option>
+        <option value="Yukong">Yukong</option>
+        <option value="Acheron">Acheron</option>
+        <option value="Black Swan">Black Swan</option>
+        <option value="Guinaifen">Guinaifen</option>
+        <option value="Kafka">Kafka</option>
+        <option value="Luka">Luka</option>
+        <option value="Pela">Pela</option>
+        <option value="Sampo">Sampo</option>
+        <option value="Silver Wolf">Silver Wolf</option>
+        <option value="Welt">Welt</option>
+        <option value="Fu Xuan">Fu Xuan</option>
+        <option value="Gepard">Gepard</option>
+        <option value="March 7th">March 7th</option>
+        <option value="Dr. Ratio">Dr. Ratio</option>
+        <option value="Seele">Seele</option>
+        <option value="Sushang">Sushang</option>
+        <option value="Topaz and Numby">Topaz and Numby</option>
+        <option value="Yanqing">Yanqing</option>
+    </select><br><br>
+
+    <label for="estilo_juego">Estilo de juego:</label><br>
+    <select id="estilo_juego" name="estilo_juego">
+        <option value="Conservador">Conservador. Prefiero terminar las batallas aunque me lleve una eternidad.</option>
+        <option value="Ofensivo">Ofensivo. Cuando antes termine esta batalla antes podré empezar la siguiente.</option>
+    </select><br><br>
+    <label for="motivo_juego">¿Por qué juegas a Honkai Star-Rail?:</label><br>
+    <select id="motivo_juego" name="motivo_juego">
+        <option value="Historia">Me encanta su historia y las escenas que nos da, así como los cambios de guión que estas conllevan.</option>
+        <option value="Rpg">Me gusta el estilo de juego RPG por turnos que presenta el juego.</option>
+        <option value="Coleccionar">Quiero conseguir todos los personajes del juego.</option>
+        <option value="Desafios">Quiero superar todos los desafíos del juego en su máximo nivel y conseguir ser reconocido.</option>
+    </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
